@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sourceandroid.androidflashlightapplication.FlashLightActivity"
+    android:background="@android:color/holo_green_dark"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:text="1"
+        android:layout_gravity="right"
+        android:contentDescription="threshold" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggleButton"
+        android:gravity="top|center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageButton
+        android:id="@+id/button_on_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        android:layout_gravity="center_vertical|center_horizontal" />
+
+</LinearLayout>
