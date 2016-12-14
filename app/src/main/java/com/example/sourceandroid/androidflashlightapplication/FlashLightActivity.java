@@ -26,7 +26,7 @@ import static android.R.id.toggle;
 
 
 public class FlashLightActivity extends AppCompatActivity {
-
+    //Comments
     private CameraManager mCameraManager;
     private String mCameraId;
     private String mText;
